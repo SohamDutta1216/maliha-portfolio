@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useInterval } from '../hooks/useInterval';
+import { ContactForm } from '../contact-form/contact-form'
 const Contact = (isInView) => {
     const [showButton, setShowButton] = useState(false)
     useInterval(() => {
@@ -12,6 +13,7 @@ const Contact = (isInView) => {
     return (
         <section id="contact">
             <h1>CONTACT</h1>
+            <ContactForm />
         </section>
     );
 };
