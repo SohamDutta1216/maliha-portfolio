@@ -10,7 +10,7 @@ const About = (isInView) => {
                     <div className=' about__row'>
                         <div className=' about__column'>
                             <h1>ABOUT</h1>
-                            <p className="about__text">Hi my name is Maliha, I am a Brooklyn based Interior Decorator. I use my love and eye for mid century and post modern furniture, along with my thrifty nature to create gorgeous spaces for affordable prices. </p>
+                            <p className="about__text"> Maliha Jahangiri is a Brooklyn-based interior decorator. With her passion for both postmodern and midcentury design, Maliha creates beautiful and sustainable spaces with secondhand pieces to make interior decorating affordable. </p>
                         </div>
                         <div className='avatar-container'>
                             <img src={Maliha} className="avatar" />

@@ -7,11 +7,9 @@ export const ContactForm = () => {
     const [showSuccess, setSuccess] = useState(false)
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm("service_qjncvra", "template_57k2n3b", form.current, 'user_HC18YiCW28WYlD9ry87FB')
             .then((result) => {
                 console.log(result.text);
-                setSuccess(true)
             }, (error) => {
                 console.log(error.text);
                 setError(true)
